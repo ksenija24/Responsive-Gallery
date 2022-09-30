@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reponsive gallery</title>
+
+<style>
+   @media screen and (max-width: 375px) {
+  body {
+    font-family: @import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+  }
+
+  #wrapper {
+    margin: 10px 50px;
+  }
+  #wrapper h2 {
+    color: #2d2d2d;
+  }
+
+  .tile {
+    box-shadow: 0 0 10px 0 #2d2d2d50;
+    border-radius: 10px;
+    background-color: #00a3ff;
+  }
+  .tile .tile-image img {
+    width: 100%;
+  }
+
+  .tile-title p {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    height: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 9px 9px;
+  }
+
+  #text {
+    margin-top: 50px;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 768px) {
+  body {
+    margin: 0;
+    font-family:@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+  }
+
+  #wrapper {
+    margin: 10px 60px;
+  }
+  #wrapper h2 {
+    color: #2d2d2d;
+  }
+
+  .tiles {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    gap: 20px;
+  }
+
+  .tile {
+    width: 100%;
+    box-shadow: 0 0 10px 0 #2d2d2d50;
+    border-radius: 10px;
+    background-color: #00a3ff;
+  }
+  .tile .tile-image img {
+    width: 100%;
+  }
+
+  .tile-title p {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    height: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 9px 9px;
+  }
+
+  #text {
+    margin-top: 50px;
+  }
+}
+@media screen and (min-width: 769px) {
+  body {
+    font-family: @import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+  }
+
+  #wrapper {
+    margin: 10px 30px;
+  }
+  #wrapper h2 {
+    color: #2d2d2d;
+  }
+
+  .tiles {
+    display: grid;
+    grid-template-columns: repeat(5, 19%);
+    gap: 20px;
+  }
+
+  .tile {
+    width: 100%;
+    box-shadow: 0 0 10px 0 #2d2d2d50;
+    border-radius: 10px;
+    background-color: #00a3ff;
+  }
+  .tile .tile-image img {
+    width: 100%;
+  }
+
+  .tile-title p {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    height: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 9px 9px;
+  }
+
+  #text {
+    margin-top: 50px;
+  }
+}
+
+</style>
+
+
+
+</head>
+<body>
+    <div id="wrapper">
+        <h2>Gallery Heading</h2>
+
+        <div class="tiles">
+            <div class="tile">
+                <div class="tile-image">
+                    <img src="../zadatak css/placeholder-image.png" alt="Tile Image">
+                </div>
+                <div class="tile-title">
+                    <p>Image Title</p>
+                </div>
+            </div>
+            <div class="tile">
+                <div class="tile-image">
+                    <img src="../zadatak css/placeholder-image.png" alt="Tile Image">
+                </div>
+                <div class="tile-title">
+                    <p>Image Title</p>
+                </div>
+            </div>
+            <div class="tile">
+                <div class="tile-image">
+                    <img src="../zadatak css/placeholder-image.png" alt="Tile Image">
+                </div>
+                <div class="tile-title">
+                    <p>Image Title</p>
+                </div>
+            </div>
+            <div class="tile">
+                <div class="tile-image">
+                    <img src="../zadatak css/placeholder-image.png" alt="Tile Image">
+                </div>
+                <div class="tile-title">
+                    <p>Image Title</p>
+                </div>
+            </div>
+            <div class="tile">
+                <div class="tile-image">
+                    <img src="../zadatak css/placeholder-image.png" alt="Tile Image">
+                </div>
+                <div class="tile-title">
+                    <p>Image Title</p>
+                </div>
+            </div>
+            <div class="tile">
+                <div class="tile-image">
+                    <img src="../zadatak css/placeholder-image.png" alt="Tile Image">
+                </div>
+                <div class="tile-title">
+                    <p>Image Title</p>
+                </div>
+            </div>
+            <div class="tile">
+                <div class="tile-image">
+                    <img src="../zadatak css/placeholder-image.png" alt="Tile Image">
+                </div>
+                <div class="tile-title">
+                    <p>Image Title</p>
+                </div>
+            </div>
+            <div class="tile">
+                <div class="tile-image">
+                    <img src="../zadatak css/placeholder-image.png" alt="Tile Image">
+                </div>
+                <div class="tile-title">
+                    <p>Image Title</p>
+                </div>
+            </div>
+            <div class="tile">
+                <div class="tile-image">
+                    <img src="../zadatak css/placeholder-image.png" alt="Tile Image">
+                </div>
+                <div class="tile-title">
+                    <p>Image Title</p>
+                </div>
+            </div>
+            <div class="tile">
+                <div class="tile-image">
+                    <img src="../zadatak css/placeholder-image.png" alt="Tile Image">
+                </div>
+                <div class="tile-title">
+                    <p>Image Title</p>
+                </div>
+            </div>
+
+    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
+        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+         sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+          Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+
+</body>
+</html>
